@@ -4,8 +4,8 @@ from random import randint
 app = Flask(__name__)
 @app.route("/")
 def home():
-        bg_color = "black"
-        font_color = "white"
+        bg_color = "white"
+        font_color = "black"
         msg = "Hello"
         value = randint(0, 3)
         names = ['Logic will get you from A to B. Imagination will take you everywhere.', 'There are 10 kinds of people. Those who know binary and those who dont', 'There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies and the other is to make it so complicated that there are no obvious deficiencies', 'It is pitch dark. You are likely to be eaten by a grue','It is not that is so smart,it is just that I stay with problems longer']
